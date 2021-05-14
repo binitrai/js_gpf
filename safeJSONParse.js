@@ -1,5 +1,7 @@
 /*
 Function for JSON string parsing with default value
+@param1 : json string
+@param2 : default output incase of json string is not valid
 */
 
 function safeJSONParse(jsonString, defaultParsedJson = {}){
